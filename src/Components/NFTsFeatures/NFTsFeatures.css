@@ -1,0 +1,114 @@
+.bg-color {
+  background-color: black;
+  padding: 65px 120px 99px 120px !important;
+  min-height: 100vh; /* Ensures it takes at least the full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-color h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.57px;
+  text-align: left;
+  color: white;
+}
+
+.collection-divs-boxes {
+  display: flex;
+  gap: 30px;
+  padding: 45px 0px 29px 0px;
+  flex-wrap: wrap;
+}
+
+.user-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-text {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.user-text img {
+  width: 28px;
+  height: 28px;
+}
+
+.user-text p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.total-btn {
+  width: 99px !important;
+  height: 30px !important;
+  padding: 9px 14px 9px 14px !important;
+  gap: 10px;
+  background-color: transparent;
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 12.1px;
+  border: 1px solid;
+  border-image-source: linear-gradient(94.74deg, #85d8eb 9.96%, #1177e8 90.04%);
+  border-image-slice: 1;
+  padding: 10px 20px;
+  background: transparent;
+  color: #ffff;
+  cursor: pointer;
+  border-radius: 5px !important;
+}
+
+.user-title h3 {
+  padding-top: 29px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  text-align: left;
+  color: white;
+}
+
+@media (max-width: 1369px) {
+  .collection-divs-boxes {
+    gap: 30px;
+    padding: 45px 0px 29px 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1029px) {
+  .collection-divs-boxes {
+    gap: 30px;
+    padding: 45px 0px 29px 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .user-text {
+    padding: 10px 0px 30px 0px;
+  }
+}
+
+@media (max-width: 595px) {
+  .bg-color {
+    padding: 65px 60px 99px 60px;
+  }
+}
+
+@media (max-width: 497px) {
+  .bg-color {
+    padding: 65px 30px 99px 30px;
+  }
+  .user-static-img {
+    width: 100%;
+  }
+}

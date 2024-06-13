@@ -1,0 +1,71 @@
+.bg-color {
+    background-color: black;
+    padding: 20px;
+  }
+  
+  .main-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .side-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .signup-btn {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+    text-align: left;
+    color: white;
+    background: linear-gradient(94.74deg, #85d8eb 9.96%, #1177e8 90.04%);
+    width: 123px;
+    height: 53px;
+    padding: 17px 11px;
+    gap: 10px;
+    border-radius: 7.5px;
+    border: none;
+  }
+  
+  .create-and-sell h3 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+    text-align: left;
+    color: white;
+  }
+  
+  .create-and-sell p {
+    color: rgba(183, 180, 187, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 1454px) {
+    .create-and-sell p br {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1304px) {
+    .main-div {
+      padding: 0 30px;
+    }
+  }
+  
+  @media (max-width: 752px) {
+    .main-div {
+      flex-direction: column;
+      padding: 0 30px;
+      gap: 30px;
+    }
+  }
+  

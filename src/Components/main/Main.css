@@ -1,0 +1,141 @@
+.bg-img-color {
+  background: black !important;
+  /* height: 100vh; */
+  padding: 103px 120px 35px 120px !important;
+}
+.HLHS-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.LHS-text h3 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72.61px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: white;
+}
+.LHS-text p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #b7b4bb;
+  padding: 30px 0px 50px 0px;
+}
+.shares {
+  display: flex;
+  padding-top: 50px;
+  gap: 15px;
+}
+.shares img{
+    width:78px;
+height:39.75px;
+}
+.shares h5{
+font-size: 24px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: white;
+margin-bottom: 5px;
+}
+.shares p{
+font-size: 10px;
+font-weight: 400;
+line-height: 15.75px;
+text-align: left;
+color:#B7B4BB;
+}
+.artwork h3{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 54.46px;
+    text-align: left;
+    color: white;
+}
+.artwork p{
+font-size: 12px;
+font-weight: 400;
+line-height: 14.52px;
+text-align: left;
+color: #CFCFCF;
+}
+.likes{
+    display: flex;
+    gap: 25px;
+}
+.comunity-members{
+    display: flex;
+    align-items: baseline;
+    gap: 50px !important;
+}
+@media (max-width:1400px) {
+  .LHS-text h3 br{
+    display: none;
+  }
+  .LHS-text p br{
+    display: none;
+  }
+}
+@media (max-width:1169px) {
+ .biding-img{
+  display: none;
+ }
+}
+@media (max-width:769px) {
+  .bg-img-color{
+    padding:103px 100px 35px 75px !important;;
+  }
+  .comunity-members {
+    display: flex;
+    align-items: center;
+    gap: 50px !important;
+    flex-direction: column;
+    justify-content: center;
+    padding-top:30px ;
+  }
+  .shares {
+    display: flex;
+    padding-top: 0px;
+    gap: 15px;
+}
+}
+@media (max-width:569px) {
+  .bg-img-color{
+    padding:103px 30px 35px 48px !important;;
+  }
+  .LHS-text h3 {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 63.61px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: white;
+}
+.LHS-text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #b7b4bb;
+  padding: 30px 0px 50px 0px;
+}
+.likes {
+  display: flex;
+  gap: 15px;
+}
+.artwork h3 {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 54.46px;
+  text-align: left;
+  color: white;
+}
+}
+@media (max-width:425px) {
+  .bg-img-color{
+    padding:103px 30px 35px 30px !important;;
+  }
+}
