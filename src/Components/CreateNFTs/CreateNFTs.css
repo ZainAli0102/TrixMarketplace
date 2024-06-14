@@ -1,15 +1,14 @@
 .bg-color {
     background-color: black;
-    padding: 20px;
+    padding: 110px 120px 120px 120pxpx;
   }
   
   .main-div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     gap: 30px;
-    padding: 20px;
   }
   
   .side-img {

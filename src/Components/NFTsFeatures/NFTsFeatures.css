@@ -1,4 +1,4 @@
-.bg-color {
+.bg-color-box {
   background-color: black;
   padding: 65px 120px 99px 120px !important;
   min-height: 100vh; /* Ensures it takes at least the full viewport height */
@@ -6,7 +6,7 @@
   flex-direction: column;
 }
 
-.bg-color h3 {
+.bg-color-box h3 {
   font-size: 36px;
   font-weight: 700;
   line-height: 43.57px;
@@ -99,13 +99,13 @@
 }
 
 @media (max-width: 595px) {
-  .bg-color {
+  .bg-color-box {
     padding: 65px 60px 99px 60px;
   }
 }
 
 @media (max-width: 497px) {
-  .bg-color {
+  .bg-color-box {
     padding: 65px 30px 99px 30px;
   }
   .user-static-img {

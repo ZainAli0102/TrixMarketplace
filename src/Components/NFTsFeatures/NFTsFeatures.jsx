@@ -8,7 +8,7 @@ import userimg from "../../assets/Ellipse 95.png";
 
 function NFTsFeatures() {
   return (
-    <div className="bg-color">
+    <div className="bg-color-box">
       <h3>Collection Featured NFTs</h3>
       <div className="collection-divs-boxes">
         <div className="user-title">

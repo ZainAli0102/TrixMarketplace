@@ -1,6 +1,7 @@
 import React from "react";
-import './DiscoverNFTs.css';
-
+import "./DiscoverNFTs.css";
+import "./DiscoverNFTsProp";
+import DiscoverNFTsProp from "./DiscoverNFTsProp";
 
 export default function DiscoverNFTs() {
   return (
@@ -17,12 +18,18 @@ export default function DiscoverNFTs() {
           <button className="selection-btn-items ">Crypto</button>
         </div>
         <div>
-            <button className="filter-btn"><span><i className="bi-filter"></i> All Filters</span></button>
+          <button className="filter-btn">
+            <span className="d-flex justify-content-center align-items-center">
+              <i className="bi-filter" width="24" height="24"></i>{" "}
+              <p className="mb-0"> All Filters</p>
+            </span>
+          </button>
         </div>
       </div>
+      <DiscoverNFTsProp />
       <div className="d-flex justify-content-center align-items-center">
-        <button className="more-NFTs ">  More NFTs</button></div>
-
+        <button className="more-NFTs "> More NFTs</button>
+      </div>
     </div>
   );
 }
