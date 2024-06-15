@@ -12,6 +12,8 @@
   line-height: 43.57px;
   text-align: left;
   color: white;
+  padding-bottom: 12px;
+  margin-bottom: 0px;
 }
 
 .collection-divs-boxes {
@@ -24,7 +26,7 @@
 .user-title {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .user-text {
@@ -46,25 +48,51 @@
   color: white;
   margin-bottom: 0px;
 }
-
+.user-box-width{
+  width: 100% !important;
+}
 .total-btn {
-  width: 99px !important;
-  height: 30px !important;
-  padding: 9px 14px 9px 14px !important;
-  gap: 10px;
+  /* width: Hug (61px)px; */
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 10px;
+  background: transparent; /* Keep the background transparent */
+  z-index: 1; 
+  height: 38px;
+  padding: 9px, 15px, 9px, 15px;
   background-color: transparent;
   color: white;
   font-size: 10px;
   font-weight: 600;
-  line-height: 12.1px;
-  border: 1px solid;
-  border-image-source: linear-gradient(94.74deg, #85d8eb 9.96%, #1177e8 90.04%);
-  border-image-slice: 1;
+  /* line-height: 12.1px; */
+  /* border: 1px solid; */
+  /* border-image-source: linear-gradient(94.74deg, #85d8eb 9.96%, #1177e8 90.04%);
+  border-image-slice: 1; */
   padding: 10px 20px;
-  background: transparent;
-  color: #ffff;
+  background: transparent; /* Optional: Set a transparent background if needed */
+  color: #ffff; /* Optional: Set the text color */
   cursor: pointer;
-  border-radius: 5px !important;
+  /* border-radius: 10px !important; */
+}
+.total-btn::before{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 38px;
+  content: '';
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  background: linear-gradient(94.74deg, #85d8eb 9.96%, #1177e8 90.04%); /* Gradient background */
+  -webkit-mask:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  z-index: -1;
 }
 
 .user-title h3 {

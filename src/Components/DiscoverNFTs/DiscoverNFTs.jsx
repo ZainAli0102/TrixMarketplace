@@ -26,6 +26,7 @@ export default function DiscoverNFTs() {
           </button>
         </div>
       </div>
+      
       <DiscoverNFTsProp />
       <div className="d-flex justify-content-center align-items-center">
         <button className="more-NFTs "> More NFTs</button>

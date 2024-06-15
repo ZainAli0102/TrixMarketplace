@@ -14,12 +14,12 @@ function NFTsFeatures() {
         <div className="user-title">
           <img src={amazingimg}  className="user-static-img"/>
           <h3>Amazing Collection</h3>
-          <Row>
+          <Row  className="user-box-width">
             <Col className="user-text">
               <img src={userimg} />
               <p>by Arkhan</p>
             </Col>
-            <Col className="d-flex align-items-center">
+            <Col className="d-flex justify-content-end align-items-center">
               <button className="total-btn">Total 54 Items</button>
             </Col>
           </Row>
@@ -27,12 +27,12 @@ function NFTsFeatures() {
         <div className="user-title">
           <img src={girlimg}   className="user-static-img" />
           <h3>Amazing Collection</h3>
-          <Row>
+          <Row className="user-box-width">
             <Col className="user-text">
               <img src={userimg} />
               <p>by Arkhan</p>
             </Col>
-            <Col className="d-flex align-items-center">
+            <Col className="d-flex  justify-content-end align-items-center">
               <button className="total-btn">Total 54 Items</button>
             </Col>
           </Row>
@@ -40,12 +40,12 @@ function NFTsFeatures() {
         <div className="user-title">
           <img src={catimg}   className="user-static-img"/>
           <h3>Amazing Collection</h3>
-          <Row>
+          <Row className="user-box-width">
             <Col className="user-text">
               <img src={userimg} />
               <p>by Arkhan</p>
             </Col>
-            <Col className="d-flex align-items-center">
+            <Col className="d-flex justify-content-end align-items-center">
               <button className="total-btn">Total 54 Items</button>
             </Col>
           </Row>
