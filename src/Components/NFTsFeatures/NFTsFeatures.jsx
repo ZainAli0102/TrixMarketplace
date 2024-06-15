@@ -19,7 +19,7 @@ function NFTsFeatures() {
               <img src={userimg} />
               <p>by Arkhan</p>
             </Col>
-            <Col className="d-flex justify-content-end align-items-center">
+            <Col className="d-flex justify-content-end align-items-center p-0">
               <button className="total-btn">Total 54 Items</button>
             </Col>
           </Row>
@@ -32,8 +32,8 @@ function NFTsFeatures() {
               <img src={userimg} />
               <p>by Arkhan</p>
             </Col>
-            <Col className="d-flex  justify-content-end align-items-center">
-              <button className="total-btn">Total 54 Items</button>
+            <Col className="d-flex  justify-content-end align-items-center p-0">
+              <button className="total-btn ">Total 54 Items</button>
             </Col>
           </Row>
         </div>
@@ -45,7 +45,7 @@ function NFTsFeatures() {
               <img src={userimg} />
               <p>by Arkhan</p>
             </Col>
-            <Col className="d-flex justify-content-end align-items-center">
+            <Col className="d-flex justify-content-end align-items-center p-0">
               <button className="total-btn">Total 54 Items</button>
             </Col>
           </Row>
