@@ -82,10 +82,12 @@ opacity: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .items-buttons {
   gap: 12px;
   display: flex;
+  flex-wrap: wrap;
 }
 .selection-btn-items:hover {
   background: linear-gradient(94.74deg, #85d8eb 9.96%, #1177e8 90.04%);
@@ -159,6 +161,7 @@ opacity: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 12px;
 }
 .more-NFTs {
 

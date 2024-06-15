@@ -12,9 +12,9 @@ function OffcanvasExample() {
   return (
     <>
       {['lg'].map((expand) => (
-        <Navbar key={expand} expand={expand} className="bg-dark mb-3">
+        <Navbar key={expand} expand={expand} className="bg-dark   ">
           <Container fluid className='main-box'>
-            <Navbar.Brand href="#"><img src={logo}/></Navbar.Brand>
+            <Navbar.Brand href="#" className='me-0'><img src={logo}/></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -40,7 +40,7 @@ function OffcanvasExample() {
                     className="me-2 sreach-bar"
                     aria-label="Search"
                   />
-                  <Button className='conect-btn'>Connect Wallet</Button>
+                  <Button className='conect-btn'> Connect Wallet</Button>
                 </Form>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
