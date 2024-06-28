@@ -1,10 +1,10 @@
 import React from "react";
 import "./NFTsFeatures.css";
-import amazingimg from "../../assets/collectionimges.svg";
-import girlimg from "../../assets/girl.svg";
-import catimg from "../../assets/cat.svg";
+import amazingimg from "../../../assets/collectionimges.svg";
+import girlimg from "../../../assets/girl.svg";
+import catimg from "../../../assets/cat.svg";
 import { Col, Row } from "react-bootstrap";
-import userimg from "../../assets/Ellipse 95.png";
+import userimg from "../../../assets/Ellipse 95.png";
 
 function NFTsFeatures() {
   return (

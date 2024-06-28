@@ -24,10 +24,14 @@
   color: #b7b4bb;
   padding: 30px 0px 50px 0px;
 }
+.bg-colr-effect{
+  position: absolute;
+right: 8% !important;
+}
 .shares {
   display: flex;
-  padding-top: 50px;
-  gap: 15px;
+
+    gap: 15px;
 }
 .shares img{
     width:78px;
@@ -68,8 +72,10 @@ color: #CFCFCF;
 }
 .comunity-members{
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 50px !important;
+    padding-top: 66px;
+    position: relative;
 }
 @media (max-width:1400px) {
   .LHS-text h3 br{

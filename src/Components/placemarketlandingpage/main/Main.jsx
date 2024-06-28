@@ -1,9 +1,10 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import bidimg from "../../assets/Group 1597877999.png";
+import bidimg from "../../../assets/Group 1597877999.png";
 import "./Main.css";
 import styled from "styled-components";
-import shares from "../../assets/List.png";
+import shares from "../../../assets/List.png";
+import bgcolor from '../../../assets/Ellipse 604.png'
 
 const Exlporebtn = styled.button`
   width: 137px;
@@ -26,11 +27,11 @@ function Main() {
       <Container fluid className="bg-img-color">
         <div className="HLHS-div">
           <div className="LHS-text">
-            <h3>
+            <h3 className="mb-0">
               Discover, and <br />
               Collect Digital Art <br /> NFTs{" "}
             </h3>
-            <p>
+            <p className="mb-0">
               Digital marketplace for crypto collectibles and non-
               <br />
               fungible tokens (NFTs). Buy, Sell, and discover exclusive
@@ -43,6 +44,7 @@ function Main() {
           </div>
         </div>
         <div className="comunity-members">
+          <img src={bgcolor} className="bg-colr-effect"/>
           <div className="likes">
             <div className="artwork"> <h3>98K+</h3> <p className="text-center ">Artwork</p></div>
             <div className="artwork"> <h3>12k+</h3> <p className="text-center ">Auction</p></div>

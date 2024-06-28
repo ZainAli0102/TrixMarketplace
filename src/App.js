@@ -1,17 +1,19 @@
 import "./App.css";
-import Main from "./Components/main/Main";
-import NFTsFeatures from "./Components/NFTsFeatures/NFTsFeatures";
 import CreateNFTs from "./Components/CreateNFTs/CreateNFTs";
-import DiscoverNFTs from "./Components/DiscoverNFTs/DiscoverNFTs";
+import ListSale from "./Components/ListSale/ListSale";
+import MintScreen from "./Components/MintScreen/MintScreen";
+import Placemarketlandingpage from "./Components/placemarketlandingpage/Placemarketlandingpage";
+import CollectionNFTs from "./Components/collectionNFTs/CollectionNFTs";
 
 function App() {
   return (
-    <div>
-      <Main />
-      <NFTsFeatures />
-      <CreateNFTs />
-      <DiscoverNFTs />
-    </div>
+<>
+<Placemarketlandingpage/>
+{/* <CollectionNFTs/> */}
+{/* <MintScreen/> */}
+{/* <CreateNFTs/> */}
+{/* <ListSale/> */}
+</>
   );
 }
 

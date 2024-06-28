@@ -1,0 +1,46 @@
+.bg-img-for-metaverse {
+  background-image: url("../../assets/image\ 18.png") !important;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 552px;
+  width: 100%;
+}
+/* .main-div {
+  margin: 0px 91px 40px 92px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  width: 90%;
+  position:absolute;
+  bottom: 0px;
+} */
+.metaverse-text h3 {
+  padding-top: 20px;
+  margin-bottom: 0px;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 42px;
+  text-align: left;
+}
+.RHS-text{
+    display: flex;
+    gap: 30px;
+}
+.RHS-text h3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: white;
+    text-align: center;
+}
+.RHS-text p{
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+color: rgba(183, 180, 187, 1);
+text-align: center;
+}

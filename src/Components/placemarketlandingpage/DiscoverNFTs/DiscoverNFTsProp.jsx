@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import "./DiscoverNFTs.css";
-import monky from "../../assets/monky.svg";
-import girl from "../../assets/VRgirl.svg";
-import dog from "../../assets/dog.svg";
-import skull from "../../assets/skull.svg";
-import etherum from "../../assets/ethereum 2.svg";
+import monky from "../../../assets/monky.svg";
+import girl from "../../../assets/VRgirl.svg";
+import dog from "../../../assets/dog.svg";
+import skull from "../../../assets/skull.svg";
+import etherum from "../../../assets/ethereum 2.svg";
 
 const images = [
   { src: monky, name: "ArtCrypto" },
@@ -36,27 +36,30 @@ function DiscoverNFTsProp() {
           {shuffledImages
             .slice(rowIndex * 4, rowIndex * 4 + 4)
             .map((img, colIndex) => (
-              <Col
-                key={colIndex}
-                className="p-0 d-flex justify-content-center"
-              >
+              <Col key={colIndex} className="p-0 d-flex justify-content-center">
                 <Card className="image-card">
                   <Card.Img variant="top" src={img.src} alt={img.name} />
                   <Card.Body>
                     <Card.Title className="title-names">{img.name}</Card.Title>
                     <div className="card-info">
-                      <Card.Text className="d-flex ether-img ">
+                      <Card.Text className="d-flex ether-img mb-0">
                         <span className="d-flex">
-                        <img src={etherum}  />
-                       <p>0.25 ETH</p>
+                          <img src={etherum} />
+                          <p className="mb-0">0.25 ETH</p>
                         </span>
                       </Card.Text>
-                      <Card.Text className="card-OF-font-size">1 of 321</Card.Text>
+                      <Card.Text className="card-OF-font-size">
+                        1 of 321
+                      </Card.Text>
+               
+                       
                     </div>
+                    <hr  className="crd-hr"/>
                     <div className="button-box">
-                   
                       {" "}
-                      <Button variant="primary" className="time-left">3h 50m 2s left</Button>
+                      <Button variant="primary" className="time-left">
+                        3h 50m 2s left
+                      </Button>
                       <p className="mb-0">Place a bid</p>
                     </div>
                   </Card.Body>
